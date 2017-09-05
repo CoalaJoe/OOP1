@@ -1,4 +1,4 @@
-"/Users/ashura/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3544.40/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 3/Additionen"
+"/Users/ashura/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 3/Additionen"
 -- The C compiler identification is AppleClang 8.1.0.8020042
 -- The CXX compiler identification is AppleClang 8.1.0.8020042
 -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc

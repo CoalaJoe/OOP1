@@ -30,6 +30,7 @@ int main()
         std::cout << "Möchten Sie einen weiteren Zylinder berechnen? [yes/no]";
         std::cin >> answer;
 
+        // Eingabe in grossbuchstaben verändern.
         std::transform(answer.begin(), answer.end(), answer.begin(), ::toupper);
         another_cylinder = (answer == "Y" || answer == "YES");
     }

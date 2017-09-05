@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/ashura/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3544.40/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/ashura/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/ashura/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3544.40/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/ashura/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input"
+CMAKE_SOURCE_DIR = "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Arithmetik_Input.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Arithmetik_Input.dir/flags.make
 
 CMakeFiles/Arithmetik_Input.dir/main.cpp.o: CMakeFiles/Arithmetik_Input.dir/flags.make
 CMakeFiles/Arithmetik_Input.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Arithmetik_Input.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arithmetik_Input.dir/main.cpp.o -c "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Arithmetik_Input.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arithmetik_Input.dir/main.cpp.o -c "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/main.cpp"
 
 CMakeFiles/Arithmetik_Input.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arithmetik_Input.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/main.cpp" > CMakeFiles/Arithmetik_Input.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/main.cpp" > CMakeFiles/Arithmetik_Input.dir/main.cpp.i
 
 CMakeFiles/Arithmetik_Input.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arithmetik_Input.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/main.cpp" -o CMakeFiles/Arithmetik_Input.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/main.cpp" -o CMakeFiles/Arithmetik_Input.dir/main.cpp.s
 
 CMakeFiles/Arithmetik_Input.dir/main.cpp.o.requires:
 
@@ -91,7 +91,7 @@ Arithmetik_Input_EXTERNAL_OBJECTS =
 Arithmetik_Input: CMakeFiles/Arithmetik_Input.dir/main.cpp.o
 Arithmetik_Input: CMakeFiles/Arithmetik_Input.dir/build.make
 Arithmetik_Input: CMakeFiles/Arithmetik_Input.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Arithmetik_Input"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Arithmetik_Input"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Arithmetik_Input.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/Arithmetik_Input.dir/clean:
 .PHONY : CMakeFiles/Arithmetik_Input.dir/clean
 
 CMakeFiles/Arithmetik_Input.dir/depend:
-	cd "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/cmake-build-debug" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/cmake-build-debug" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik Input/cmake-build-debug/CMakeFiles/Arithmetik_Input.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug" "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug/CMakeFiles/Arithmetik_Input.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Arithmetik_Input.dir/depend
 

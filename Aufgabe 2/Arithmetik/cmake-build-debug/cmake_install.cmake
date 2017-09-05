@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik
+# Install script for directory: /Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Arithmetik/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
