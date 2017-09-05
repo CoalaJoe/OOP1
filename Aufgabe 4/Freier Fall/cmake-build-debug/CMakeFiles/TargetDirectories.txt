@@ -1,0 +1,3 @@
+/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 4/Freier Fall/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 4/Freier Fall/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 4/Freier Fall/cmake-build-debug/CMakeFiles/Freier_Fall.dir
