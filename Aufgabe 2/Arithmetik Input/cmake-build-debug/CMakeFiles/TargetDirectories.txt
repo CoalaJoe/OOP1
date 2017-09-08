@@ -1,3 +1,0 @@
-/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ashura/Documents/Projects/HF-ICT/OOP1/Aufgabe 2/Arithmetik Input/cmake-build-debug/CMakeFiles/Arithmetik_Input.dir
