@@ -1,0 +1,22 @@
+\documentclass{article}
+
+\usepackage{struktex}
+
+\begin{document}
+
+    \begin{struktogramm}(100, 20)
+        \assign{Eingabe Operand 1}
+        \assign{Eingabe Operand 2}
+        \assign{Eingabe Operator}
+        \case{4}{4}{Operator ist...}{Plus}
+            \assign{Operand 1 - Operand 2}
+        \switch{Minus}
+            \assign{Operand 1 + Operand 2}
+        \switch{Mal}
+            \assign{Operand 1 ${\times}$ Operand 2}
+        \switch{Durchteilt}
+            \assign{Operand 1 {\textbackslash} Operand 2}
+        \caseend
+    \end{struktogramm}
+
+\end{document}

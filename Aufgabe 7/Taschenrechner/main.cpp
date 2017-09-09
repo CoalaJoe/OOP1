@@ -1,12 +1,11 @@
 #include <iostream>
-#include <stdexcept>
 
-int main()
+int main(int argc, char *argv[])
 {
     float operand1(0), operand2(0), result(0);
-    char oper, validOperators[] = {'+', '-', '*', '/'};
-    bool validityFlag = false;
-    bool firstRun = true;
+    char  oper, validOperators[] = {'+', '-', '*', '/'};
+    bool  validityFlag           = false;
+    bool  firstRun               = true;
 
     std::cout << "Operand 1: ";
     std::cin >> operand1;
