@@ -26,4 +26,6 @@ Umgang mit mathematischen Formeln kennen lernen.
 
 --------------------------------------------
 
-![Struktogramm](out/structogram.pdf)
+# Struktogramm
+
+[Das Struktogramm ist hier zu finden.](out/structogram.pdf)

@@ -13,3 +13,9 @@ Kein Zusatz.
 
 ## Ziel
 Lorem ipsum.
+
+--------------------------------------------
+
+# Struktogramm
+
+[Das Struktogramm ist hier zu finden.](out/struktogramm.pdf)
