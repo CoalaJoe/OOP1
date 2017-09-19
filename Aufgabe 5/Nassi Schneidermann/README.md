@@ -10,9 +10,9 @@ Verwenden Sie den Nassi-Schneidermann Standard.
 Kein Zusatz.
 
 ## Ziel
-Ein Programm grafisch darstellen zu können.`
+Ein Programm grafisch darstellen zu können.
 
-! INFO: Dieses Nassi-Schneiderman wurde mit einem Bildbearbeitungsprogramm erstellt. Durch das ausprobieren verschiedenster Software bin ich mit der Zeit zu LaTeX mit dem Packet Struktex gewechselt.`
+`! INFO: Dieses Nassi-Schneiderman wurde mit einem Bildbearbeitungsprogramm erstellt. Durch das ausprobieren verschiedenster Software bin ich mit der Zeit zu LaTeX mit dem Packet Struktex gewechselt.`
 
 --------------------------------------------
 
