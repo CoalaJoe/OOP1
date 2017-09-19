@@ -16,7 +16,7 @@ Exponent = 6
 3.45 ˆ6 = 1686.221
 ```
 
-<span style="color: red;">**_`Zeichnen Sie zuerst ein Struktogramm des Programms.`_**</span>
+**_`Zeichnen Sie zuerst ein Struktogramm des Programms.`_**
 
 ## Auftrag
 Verwenden Sie eine `for`-Schleife.
