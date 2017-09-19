@@ -3,6 +3,8 @@
 ## Beschreibung
 Lorem ipsum.
 
+**_`Zeichnen Sie zuerst ein Struktogramm des Programms.`_**
+
 ## Auftrag
 Lorem ipsum.
 
