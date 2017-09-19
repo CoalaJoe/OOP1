@@ -1,6 +1,6 @@
-# Auftrag 2.1
+# Aufgabe 2.1
 
-## Beschreibung
+## Beschreibung
 Schreiben Sie ein Programm, welches zwei Zahlen (Variablen) addiert und das Resultat auf der Konsole ausgibt.
 
 ## Auftrag
