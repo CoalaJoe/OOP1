@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage{struktex}
+
+\begin{document}
+
+\begin{struktogramm}(100, 40)
+    \assign{Ausgabe: "Geben Sie eine Zahl an: "}
+    \assign{Eingabe: num}
+    \ifthenelse{2}{2}
+        {Ist num gleich 0?}{\sTrue}{\sFalse}%
+            \assign{Ausgabe: "Die Zahl ist neutral."}
+            \assign{Ausgabe: 0}
+        \change
+
+            \ifthenelse{2}{2}
+                {Ist num kleiner als 0?}{\sTrue}{\sFalse}%
+                    \assign{Ausgabe: "Die Zahl ist negativ."}
+                    \assign{Ausgabe: -1}
+                \change
+                    \assign{Ausgabe: "Die Zahl ist positiv."}
+                    \assign{Ausgabe: 1}
+            \ifend
+
+    \ifend
+\end{struktogramm}
+
+\end{document}
