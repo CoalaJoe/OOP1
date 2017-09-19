@@ -29,4 +29,4 @@ Schleifen kennen lernen.
 
 --------------------------------------------
 
-![](out/struktogramm.pdf)
+![Struktogramm](out/struktogramm.pdf)
