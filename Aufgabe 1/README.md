@@ -4,5 +4,5 @@
 
 - Aufgabe 1.1: Einleitung
 - Aufgabe 1.2: Software-Installation
-- [Aufgabe 1.3: Hello World](Aufgabe 1/Hello World/)
-- [Aufgabe 1.4: Hello World dokumentieren](Aufgabe 1/Hello World/)
+- [Aufgabe 1.3: Hello World](Aufgabe 1/Hello World/README.md)
+- [Aufgabe 1.4: Hello World dokumentieren](Aufgabe 1/Hello World/README.md)
