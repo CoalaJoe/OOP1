@@ -1,9 +1,10 @@
+#include <cmath>
 #include <iostream>
 
 int main(int argc, char *argv[])
 {
     float operand1(0), operand2(0), result(0);
-    char  oper, validOperators[] = {'+', '-', '*', '/'};
+    char  oper, validOperators[] = {'+', '-', '*', '/', '%'};
     bool  validityFlag           = false;
     bool  firstRun               = true;
 
@@ -13,7 +14,7 @@ int main(int argc, char *argv[])
     std::cout << "Operand 2: ";
     std::cin >> operand2;
 
-    std::cout << "Operator (+,-,*,/): ";
+    std::cout << "Operator (+,-,*,/, %): ";
 
     firstRun = true;
     while (!validityFlag && std::cin.get(oper)) {
@@ -43,6 +44,10 @@ int main(int argc, char *argv[])
             break;
         case '/':
             result = operand1 / operand2;
+            break;
+        case '%':
+            result = std::fmod(operand1, operand2);
+            break;
         default:
             std::invalid_argument("Operator was not found!");
             break;
