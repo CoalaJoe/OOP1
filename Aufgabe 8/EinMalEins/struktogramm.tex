@@ -1,7 +1,15 @@
 \documentclass{article}
 
+\usepackage{struktex}
+
 \begin{document}
-
-
-
+\begin{struktogramm}(100, 40)
+    \while{$a = 1; bis a >= 10$}
+        \while{$b = 1; bis b >= 10$}
+            \assign{Ausgabe $a \times b$}
+            \assign{Ausgabe TAB}
+        \whileend
+        \assign{Ausgabe Neuezeile}
+    \whileend
+\end{struktogramm}
 \end{document}
