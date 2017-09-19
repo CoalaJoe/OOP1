@@ -11,9 +11,9 @@ Ihr Wert beträgt: 6.673 · 10<sup>−11</sup>
 
 *f* = 6.673 · 10<sup>−11</sup>
 
-**_`Zeichnen Sie zuerst ein Struktogramm des Programms.`_**
-
 Das Programm soll `m1`, `m2` und `r` einlesen und den Wert der Anziehungskraft ausgeben.
+
+**_`Zeichnen Sie zuerst ein Struktogramm des Programms.`_**
 
 ## Auftrag
 *f* muss als Konstante deklariert werden.
