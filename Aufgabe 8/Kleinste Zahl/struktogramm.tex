@@ -1,0 +1,38 @@
+\documentclass{article}
+
+\usepackage{struktex}
+\usepackage[applemac]{inputenc}
+\usepackage[landscape]{geometry}
+
+\begin{document}
+\begin{struktogramm}(200, 40)
+    \assign{Ausgabe: Gib 3 Zahlen an}
+    \assign{Ausgabe: 1. Zahl}
+    \assign{Eingabe: num1}
+    \assign{Ausgabe: 2. Zahl}
+    \assign{Eingabe: num2}
+    \assign{Ausgabe: 3. Zahl}
+    \assign{Eingabe: num3}
+
+    \ifthenelse{2}{2}
+        {Ist num1 gr\"osser als num2?}{\sTrue}{\sFalse}%
+
+            \ifthenelse{2}{2}
+                {Ist num2 gr\"osser als num3?}{\sTrue}{\sFalse}%
+                    \assign{"Die kleinste Zahl ist num3"}
+                \change
+                    \assign{"Die kleinste Zahl ist num2"}
+            \ifend
+
+        \change
+
+            \ifthenelse{2}{2}
+                {Ist num1 gr\"osser als num3?}{\sTrue}{\sFalse}%
+                    \assign{"Die kleinste Zahl ist num3"}
+                \change
+                    \assign{"Die kleinste Zahl ist num1"}
+            \ifend
+
+    \ifend
+\end{struktogramm}
+\end{document}
