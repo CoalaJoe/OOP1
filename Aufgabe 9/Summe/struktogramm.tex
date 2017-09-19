@@ -1,0 +1,18 @@
+\documentclass{article}
+
+\usepackage{struktex}
+
+\begin{document}
+
+\begin{struktogramm}(100, 40)
+    \assign{Ausgabe: "Geben Sie eine positive Zahl an: "}
+    \assign{Eingabe: num}
+    \assign{Variabel resultat}
+    \while{Iterator startet mit 0$;$ solange der Iterator kleiner-gleich num ist.}
+        \assign{resultat = resultat + Iterator}
+        \assign{Itarator = Iterator + 1}
+    \whileend
+    \assign{Ausgabe: "Das Resultat ist: ${RESULTAT}$"}
+\end{struktogramm}
+
+\end{document}
