@@ -1,4 +1,4 @@
-# Aufgabe 4.2
+# Aufgabe 4.2 [Zusatz]
 
 ## Beschreibung
 Schreiben Sie ein Programm, welches eine Zahl einliest und übeprüft. Falls die Zahl gerade ist, soll der Text `”Die Zahl x ist gerade”` sonst `”Die Zahl x ist ungerade”` ausgegeben werden. Falls die Zahl ungerade ist, müssen Sie zusätzlich überprüfen ob die Zahl kleiner oder grösser als 0 ist.
