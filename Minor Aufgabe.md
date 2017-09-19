@@ -7,7 +7,7 @@ Lorem ipsum.
 Lorem ipsum.
 
 ## Zusatz
-Lorem ipsum.
+Kein Zusatz.
 
 ## Ziel
 Lorem ipsum.
