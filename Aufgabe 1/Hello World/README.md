@@ -6,9 +6,14 @@ Die meisten Programmierkurse beginnen mit dem ”Hello World!” Programm. Desha
 ## Auftrag
 Schreiben Sie ein C++ Programm, welches auf der Konsole den Text ”Hello World!” ausgibt.
 
+## Zusatz
+Kein Zusatz.
+
 ## Ziel
 Die Ausgabe von Text auf der Konsole kennen lernen.
 
+
+-------------------------------
 
 # Aufgabe 1.4
 
@@ -17,6 +22,9 @@ Normalerweise wird geschriebener Code fortlaufend ausdokumentiert. Dadurch wird 
 
 ## Auftrag
 Dokumentieren Sie den Kode der Aufgabe 1.3 aus. Schreiben Sie die Be- deutung jeder Kode-Zeile direkt in die Kode-Datei.
+
+## Zusatz
+Kein Zusatz.
 
 ## Ziel
 Die Dokumentation von Kode-Zeilen kennen lernen.
