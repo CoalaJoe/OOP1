@@ -1,2 +1,5 @@
 /*.pdf
 cmake-build-debug/
+*.log
+*.aux
+*.synctex.gz
