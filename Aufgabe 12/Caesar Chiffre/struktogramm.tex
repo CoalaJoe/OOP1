@@ -1,0 +1,52 @@
+\documentclass{article}
+
+\usepackage{struktex}
+
+\begin{document}
+
+\begin{struktogramm}(120,70)[Decrypt(char Array, Schl\"ussel)]
+    \while{L\"ange des char[]}
+        \ifthenelse{5}{2}{Index des char[] ist Null-Terminator}{y}{n}
+            \assign{Schleife stoppen}
+        \change
+            \assign{Char in char[] als int casten.}
+            \assign{int plus schl\"ussel.}
+            \assign{int als char casten und in char[] einf\"ugen.}
+        \ifend
+    \whileend
+    \exit{R\"uckgabe des char[].}
+\end{struktogramm}
+
+\begin{struktogramm}(120,70)[Encrypt(char Array, Schl\"ussel)]
+    \while{L\"ange des char[]}
+        \ifthenelse{5}{2}{Index des char[] ist Null-Terminator}{y}{n}
+            \assign{Schleife stoppen}
+        \change
+            \assign{Char in char[] als int casten.}
+            \assign{int minus schl\"ussel.}
+            \assign{int als char casten und in char[] einf\"ugen.}
+        \ifend
+    \whileend
+    \exit{R\"uckgabe des char[].}
+\end{struktogramm}
+
+\begin{struktogramm}(120,40)[main]
+    \assign{Ausgabe: "Schl\"ussel eingeben: "}
+    \assign{Eingabe: 6}
+
+    \assign{Ausgabe: "Wort eingeben: "}
+    \assign{Eingabe: "programmieren"}
+
+    \assign{Ausgabe: "Schl\"ussel lautet: "}
+    \assign{Ausgabe: Schl\"usselvariable}
+
+    \assign{Ausgabe: "Der verschl\"usselte Text lautet : "}
+    \sub{encrypt}
+    \assign{Ausgabe: verschl\"usselte Eingabe.}
+
+    \sub{decrypt}
+    \assign{Ausgabe: "Der entschl\"usselte Text lautet : "}
+    \assign{Ausgabe: entschl\"usselte verschl\"usselung.}
+\end{struktogramm}
+
+\end{document}
