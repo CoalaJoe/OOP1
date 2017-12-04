@@ -9,9 +9,21 @@
 
 \begin{document}
 
-\begin{struktogramm}(150,40)
+\begin{struktogramm}(150, 40)[Funktion]
+    \while{250 mal duchlaufen}
+        \ifthenelse{3}{4}{Wenn char auf index ist ein Null-Terminator}{j}{n}
+            \assign{R\"uckgabe: index}
+        \change
+        \ifend
+    \whileend
+    \assign{R\"uckgabe: 250}
+\end{struktogramm}
+
+\begin{struktogramm}(150,40)[main]
     \assign{Ausgabe: "Geben Sie einen String ein."}
     \assign{Eingabe: char array von 250}
+    \sub{Funktion aufruf}
+    \assign{Ausgabe: "Der String enth\"alt X Zeichen!"}
 
 \end{struktogramm}
 
