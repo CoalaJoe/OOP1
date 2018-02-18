@@ -5,8 +5,18 @@
 \begin{document}
 
 \begin{struktogramm}(120,40)
-    \assign{""}
-
+    \assign{"Boxen Array mit 6 Pl\"atzen initialisieren."}
+    \assign{"Galtonischetiefe ist 5."}
+    \while{"F\"ur jeden Ball"}
+        \assign{"Boxid ist 0."}
+        \while{"Solange Counter 0 kleiner als Galtonische Gr\"osse"}
+            \assign{"Randomzahl 0 oder 1. (0 = links, 1 = rechts)"}
+            \assign{"Boxid = Boxid + Randomzahl"}
+        \whileend
+        \assign{"Box mit Boxid + 1"}
+    \whileend
+    \assign{"Ausgabe: Box x hat x B\"alle"}
+    \assign{\ldots}
 \end{struktogramm}
 
 \end{document}
