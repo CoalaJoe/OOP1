@@ -20,6 +20,9 @@ int main()
                     std::cout << "Die gesuchte Zahl ist grösser.\n";
                 }
             } else {
+                if (i < 2) {
+                    std::cout << "Boah! Das war schnell!";
+                }
                 std::cout << "Gratulation! Sie haben die Zahl " << num << " im " << i + 1 << ". Versuch erraten.\n";
                 break;
             }
