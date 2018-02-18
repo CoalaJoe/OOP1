@@ -16,9 +16,7 @@ int main()
     for (int i = 0; i < balls; ++i) {
         boxId = 0;
         for (int j = 0; j < depth; ++j) {
-            // random ist eine Funktion welche nur in POSIX-Systemen zur verfügung steht.
-            // Wenn du Windows verwenden willst, ohne eine Kompatibilitätsschicht wie CYGWIN, ändere dies einfach zu rand.
-            boxId += static_cast<int>(random() % 2);
+            boxId += (rand() % 2);
         }
         ++(boxes[boxId]);
     }

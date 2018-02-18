@@ -5,8 +5,28 @@
 \begin{document}
 
 \begin{struktogramm}(120,40)
-    \assign{""}
-
+    \assign{Neuer Versuch gleich falsch}
+    \until{Solange neuer Versuch}
+        \assign{"Zufallszahl erstellen 0--100"}
+        \assign{"Versuche sind 6"}
+        \assign{"Eingabe ist leer"}
+        \while{"Solange anzahl Versuche kleiner als Versuche"}
+            \assign{Eingabe: "Geben Sie die X. Zahl ein: "}
+            \assign{In Eingabe gespeichert}
+            \ifthenelse{5}{2}{Eingabe ungleich Zufallszahl}{y}{n}
+                \ifthenelse{5}{2}{Eingabe kleiner als Zufallszahl}{y}{n}
+                    \assign{"Die gesuchte Zahl ist gr\"osser"}
+                \change
+                    \assign{"Die gesuchte Zahl ist kleiner"}
+                \ifend
+            \change
+                \assign{"Gratulation! Sie haben die Zahl X im X. Versuch erraten."}
+                \exit{Aus Schleife raus}
+            \ifend
+        \whileend
+        \assign{Eingabe: "Neuer Versuch?"}
+        \assign{Einsetzen: Neuer Versuch gleich Eingabe.}
+    \untilend
 \end{struktogramm}
 
 \end{document}
