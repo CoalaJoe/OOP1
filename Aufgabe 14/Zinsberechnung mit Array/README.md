@@ -7,4 +7,4 @@ Nehmen Sie folgende Änderungen vor:
 2. übergeben Sie der Funktion die Laufzeit (call by Referenz) des Vertrages
 
 ## Ziel
-Den Umgang mit Arrays und Funktionen kennen lernen. Referenzen als Funkti- onsparameter kennen lernen.
+Den Umgang mit Arrays und Funktionen kennen lernen. Referenzen als Funktionsparameter kennen lernen.
