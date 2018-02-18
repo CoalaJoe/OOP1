@@ -6,10 +6,10 @@ Es soll ein Zinsberechnungsprogramm für eine Bank entwickelt werden.
 
 ## Auftrag
 Schreiben Sie ein Programm, welches folgende Daten vom Benutzer einliest:
-• Schuldbetrag (`double`)
-• Zins pro Jahr (`double`)
-• Laufzeit (`int`)
-• Amortisation (Rückzahlung) pro Jahr (`double`)
+* Schuldbetrag (`double`)
+* Zins pro Jahr (`double`)
+* Laufzeit (`int`)
+* Amortisation (Rückzahlung) pro Jahr (`double`)
 
 Schreiben Sie eine Funktion, welche die vier Werte übernimmt und dem Bankangestellten die Einnahmen zurück gibt. 
 Geben Sie den Gewinn für die Bank und den totalen Rückzahlungsbetrag für den Bankkunden in der `main`-Funktion aus. 

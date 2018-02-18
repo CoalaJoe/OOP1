@@ -5,8 +5,20 @@
 \begin{document}
 
 \begin{struktogramm}(120,40)
-    \assign{""}
-
+    \assign{Eingabe: "Kreditbetrag in SFr: "}
+    \assign{Speichern des originalWertes in Variabel}
+    \assign{Eingabe: "Laufzeit in Jahren: "}
+    \assign{Eingabe: "Zins pro Jahr in \%: "}
+    \assign{Eingabe: "R\"uckzahlung pro Jahr in SFr: "}
+    \assign{Zwischenwert f\"ur Zins.}
+    \while{"F\"ur jedes Jahr der Laufzeit"}
+        \assign{tmpZins = (Kreditbetrag : 100 * Zins )}
+        \assign{Ausgabe: "Schuldbetrag X. Jahr: {Kreditbetrag} SFr. Ergibt: {tmpZins} SFr Zins."}
+        \assign{Kreditbetrag -= R\"uckzahlung pro Jahr}
+        \assign{Zwischenwert += tmpZins}
+    \whileend
+    \assign{Der totale Zins \"uber die gesamte Laufzeit betr\"agt: Zwischenwert}
+    \assign{Der totale R\"uckzahlungsbetrag des Kunden betr\"agt: Kreditbetrag}
 \end{struktogramm}
 
 \end{document}
