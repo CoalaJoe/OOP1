@@ -5,8 +5,20 @@
 \begin{document}
 
 \begin{struktogramm}(120,40)
-    \assign{""}
+    \assign{Ausgabe: "1. Wert eingeben: "}
+    \assign{Eingabe: double a}
+    \assign{Ausgabe: "2. Wert eingeben: "}
+    \assign{Eingabe: double b}
 
+    \assign{Ausgabe: "1. Wert vor dem Funktionsaufruf: " a}
+    \assign{Ausgabe: "2. Wert vor dem Funktionsaufruf: " b}
+
+    \sub{double c = a}
+    \sub{a = b}
+    \sub{c = c}
+
+    \assign{Ausgabe: "1. Wert vor dem Funktionsaufruf: " a}
+    \assign{Ausgabe: "2. Wert vor dem Funktionsaufruf: " b}
 \end{struktogramm}
 
 \end{document}
