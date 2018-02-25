@@ -8,7 +8,6 @@ Die Ausgabe der Werte muss in einer Funktion erfolgen.
 
 ## Auftrag
 Übergeben Sie das Array der Funktion. 
-Lorem ipsum.
 
 
 ## Ziel
